@@ -3,8 +3,7 @@ function load() {
 var msg = window.document.getElementById(`msg`)
 var img = window.document.getElementById(`imagem`)
 var data = new Date()
-//var hora = data.getHours()
-var hora = 17
+var hora = data.getHours()
 var min = data.getMinutes()
 var dia = data.getDate()
 var mes = data.getMonth()
